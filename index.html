@@ -2,23 +2,13 @@
     -- > Written by MalwarePad https://malwarepad.com
 -->
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Reel Proxy</title>
-    <style>
-        @keyframes loading {
-            0% { content: "loading"; }
-            25% { content: "loading."; }
-            50% { content: "loading.."; }
-            75% { content: "loading..."; }
-        }
-        #idiot::after {
-            content: "loading";
-            animation: loading 1s infinite;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <p id="idiot"></p>
+<body onload="init();">
+    <p id="idiot">loading</p>
 </body>
 </html>
