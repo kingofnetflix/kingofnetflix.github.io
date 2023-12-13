@@ -11,4 +11,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
+    animation: loading 1s infinite step-end;
+
+   <html lang="en">
+   }
+
+@keyframes loading {
+            0% { content: "loading"; }
+            25% { content: "loading."; }
+            50% { content: "loading.."; }
+            75% { content: "loading..."; }
+        }
